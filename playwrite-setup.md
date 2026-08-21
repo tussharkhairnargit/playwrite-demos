@@ -34,6 +34,7 @@ To execute specific test we can tag -
 npx playwright test --grep @first
 
 # Sample code 
+```
 test('has title', async ({ page})=> { 
 	await page.goto('https://playwrite.dev/');
 	await expect(page).toHaveTitle(/Playwrite/);
@@ -43,3 +44,4 @@ test('get started link', {tag:"@first"}, async({ page}) =>{
 	await page.goto('https://playwrite.dev/');
 	await page.getByRole('link',{ name: 'Get started'}).click();
 })
+```
