@@ -1,11 +1,17 @@
-# Playwright CLI 
+# Setup & installation guide 
+
+* [Official installation guide](https://playwright.dev/agent-cli/installation)
+
+
+
+* Install npm package for **Playwright CLI** globally on your machine
 ```
 npm i -g @playwright/cli@latest
+
 ```
+* For cli introduction Refer: https://playwright.dev/agent-cli/introduction
 
-Refer :https://playwright.dev/agent-cli/introduction
-
-* initialize playwrite in project
+* Run below command to initialize playwrite in your project
 ```
 npm init playwright@latest 
 Refer : https://playwright.dev/docs/intro#installing-playwright
