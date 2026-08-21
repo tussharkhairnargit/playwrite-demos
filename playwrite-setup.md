@@ -1,13 +1,19 @@
 # Playwright CLI 
+```
 npm i -g @playwright/cli@latest
+```
 Refer :https://playwright.dev/agent-cli/introduction
+
+* initialize playwrite in project
+```
 npm init playwright@latest 
 Refer : https://playwright.dev/docs/intro#installing-playwright
-
-#configuration file name
+```
+# after initialization it will generate configuration file
 playwright.config.ts
 
 package.json - Dev Dependencies and script setup 
+```
 {
 	"devDependencies":{
 		"@playwrite/test": "^1.47.2",
@@ -22,7 +28,10 @@ package.json - Dev Dependencies and script setup
 		"test:report": 
 	}
 }
+```
+
 # Commands 
+```
 npx playwright test --debug
 npx playwrite test --headed 
 npx playwrite test --project chromium 
@@ -30,8 +39,10 @@ npx playwrite test --project chromium -- project firefox
 npx playwrite test --project "*omiun" // is it going to match with chromium
 npx playwrite test test/example.spec.ts
 
-To execute specific test we can tag - 
+* To execute specific test we can tag 
 npx playwright test --grep @first
+
+```
 
 # Sample code 
 ```
