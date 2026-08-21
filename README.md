@@ -1,2 +1,2 @@
-# playwrite-demos
+# Playwrite demos
 Playwrite practice 
