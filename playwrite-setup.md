@@ -2,6 +2,7 @@
 ```
 npm i -g @playwright/cli@latest
 ```
+
 Refer :https://playwright.dev/agent-cli/introduction
 
 * initialize playwrite in project
