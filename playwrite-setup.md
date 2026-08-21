@@ -10,9 +10,8 @@ Refer :https://playwright.dev/agent-cli/introduction
 npm init playwright@latest 
 Refer : https://playwright.dev/docs/intro#installing-playwright
 ```
-# after initialization it will generate configuration file
-playwright.config.ts
-
+* After initialization, it will generate a configuration file [`playwright.config.ts`](https://playwright.dev/docs/test-configuration).
+* 
 package.json - Dev Dependencies and script setup 
 ```
 {
